@@ -129,12 +129,24 @@ img {
  ************************************************/
 
 
+
+
+ /*BONUS MAX WIDTH 1160PX*/
+
+ @media screen and (max-width:1160px) {
+
+    .container {
+        max-width: 100%;
+    }
+    
+ }
+
  /*TABLET VERSION MAX WIDTH 768PX*/
 
  @media screen and (max-width:768px) {
 
     .container {
-        width: 768px;
+        width: 100%;
     }
 
  }
@@ -170,3 +182,4 @@ img {
         width: 100%;
     }
 }
+
